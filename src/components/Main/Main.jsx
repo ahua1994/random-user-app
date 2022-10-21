@@ -57,7 +57,7 @@ const Main = () => {
     };
 
     const handleNewUser = () => {
-        handleSelected("name");
+        setSelected({});
         setNewUser(newUser + 1);
     };
 
