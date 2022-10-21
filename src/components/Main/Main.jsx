@@ -35,7 +35,7 @@ const Main = () => {
             results[0].dob.age,
         ];
         if (!userList.length) return setUserList([newRow]);
-        if (newRow.join("") != userList[userList.length - 1].join(""))
+        if (newRow.join("") !== userList[userList.length - 1].join(""))
             setUserList([...userList, newRow]);
     };
 
